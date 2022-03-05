@@ -1,12 +1,12 @@
-class Invesment:
-    def do_profit_sharing(self,):
-        print('>> Profit Sharing with investment company')
+class Investment:
+    def share_profit(self,):
+        print('>>> Profit Sharing of the investment company')
 
 
 class Company:
-    def do_profit_sharing(self,):
-        investment = Invesment()
-        investment.do_profit_sharing()
+    def share_profit(self,):
+        investment = Investment()
+        investment.share_profit()
 
 company = Company()
-company.do_profit_sharing()
+company.share_profit()
