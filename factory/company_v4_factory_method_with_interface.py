@@ -1,41 +1,41 @@
-from abc import ABC,abstractmethod
+from abc import ABC, abstractmethod
 
-class BigCompany(ABC):
+class Company(ABC):
     @abstractmethod
-    def do_profit_sharing(self,):
+    def share_profit(self,):
         pass
 
-class Invesment(BigCompany):
-    def do_profit_sharing(self,):
-        print('>> Profit Sharing with investment company...')
+class Investment(Company):
+    def share_profit(self,):
+        print('>>> Profit Sharing of the investment company')
 
-class Stockholding(BigCompany):  
-    def do_profit_sharing(self,):
-        print('>> Profit Sharing with stockholding company...')
+class StockHolding(Company):  
+    def share_profit(self,):
+        print('>>> Profit Sharing of the stock holding company')
 
-class Company1(BigCompany):  
-    def do_profit_sharing(self,):
-        print('>> Profit Sharing with Company1 company...')
+class Company1(Company):  
+    def share_profit(self,):
+        print('>>> Profit Sharing of the company 1')
 
 class CompanyFactory(ABC):
 
-        @abstractmethod
-        def make_company(self): 
-            pass
+    @abstractmethod
+    def make_company(self): 
+        pass
 
-        def do_profit_sharing(self):
-            company = self.make_company()
-            company.do_profit_sharing()
+    def share_profit(self):
+        company = self.make_company()
+        company.share_profit()
     
 class InvestmentFactory(CompanyFactory):
     def make_company(self):
-        investment = Invesment()
+        investment = Investment()
         return investment
 
     
-class StockholdingFactory(CompanyFactory):
+class StockHoldingFactory(CompanyFactory):
     def make_company(self):
-        stockholding = Stockholding()
+        stockholding = StockHolding()
         return stockholding
 
     
@@ -45,12 +45,12 @@ class Company1Factory(CompanyFactory):
         return company1
 
 investment = InvestmentFactory()
-investment.do_profit_sharing()
+investment.share_profit()
 
 
-stockholding = StockholdingFactory()
-stockholding.do_profit_sharing()
+stockholding = StockHoldingFactory()
+stockholding.share_profit()
 
 
 company1 = Company1Factory()
-company1.do_profit_sharing()
+company1.share_profit()
