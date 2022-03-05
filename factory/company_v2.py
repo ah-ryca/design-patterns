@@ -1,20 +1,20 @@
-class Invesment:
-    def do_profit_sharing(self,):
-        print('>> Profit Sharing with investment company...')
+class Investment:
+    def share_profit(self,):
+        print('>>> Profit Sharing of the investment company')
 
-class Stockholding:
-    def do_profit_sharing(self,):
-        print('>> Profit Sharing with stockholding company...')
+class StockHolding:
+    def share_profit(self,):
+        print('>>> Profit Sharing of the stock holding company')
 
 class Company:
-    def do_profit_sharing(self,company_type):
-        if company_type=='investment':
-            investment = Invesment()
-            investment.do_profit_sharing()
-        elif company_type =='stockholding':
-            stockholding = Stockholding()
-            stockholding.do_profit_sharing()
+    def share_profit(self, company_type):
+        if company_type == 'investment':
+            investment = Investment()
+            investment.share_profit()
+        elif company_type == 'stockholding':
+            stockholding = StockHolding()
+            stockholding.share_profit()
 
 
 company = Company()
-company.do_profit_sharing('investment')
+company.share_profit('investment')
