@@ -9,4 +9,4 @@
 
 
 ## Behavioral desing patterns
-
+* [Mediator](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/mediator)
