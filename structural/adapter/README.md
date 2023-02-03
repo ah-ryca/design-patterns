@@ -22,7 +22,7 @@ Adapter is a structural design pattern that allows objects with incompatible int
 
 ### round/RoundHole.java: Round holes 
 
-```
+```java
 package refactoring_guru.adapter.example.round;
 
 /**
@@ -49,7 +49,7 @@ public class RoundHole {
 <br/>
 
 ### round/RoundPeg.java: Round pegs
-```
+```java
 package refactoring_guru.adapter.example.round;
 
 /**
@@ -72,7 +72,7 @@ public class RoundPeg {
 <br/>
 
 ### square/SquarePeg.java: Square pegs
-```
+```java
 package refactoring_guru.adapter.example.square;
 
 /**
@@ -100,7 +100,7 @@ public class SquarePeg {
 <br/>
 
 ### adapters/SquarePegAdapter.java: Adapter of square pegs to round holes
-```
+```java
 package refactoring_guru.adapter.example.adapters;
 
 import refactoring_guru.adapter.example.round.RoundPeg;
