@@ -3,6 +3,7 @@
 ## Creational desing patterns
 * [Factory](https://github.com/ah-ryca/design-patterns/tree/main/creational/factory)
 * [Builder](https://github.com/ah-ryca/design-patterns/tree/main/creational/builder)
+* [Prototype](https://github.com/ah-ryca/design-patterns/tree/main/creational/Prototype)
 
 ## Structural desing patterns
 * [Adapter](https://github.com/ah-ryca/design-patterns/tree/main/structural/adapter)
@@ -10,3 +11,4 @@
 
 ## Behavioral desing patterns
 * [Mediator](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/mediator)
+* [Observer](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/observer)
