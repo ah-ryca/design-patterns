@@ -4,6 +4,7 @@
 * [Factory](https://github.com/ah-ryca/design-patterns/tree/main/creational/factory)
 * [Builder](https://github.com/ah-ryca/design-patterns/tree/main/creational/builder)
 * [Prototype](https://github.com/ah-ryca/design-patterns/tree/main/creational/Prototype)
+* [Singleton](https://github.com/ah-ryca/design-patterns/tree/main/creational/Singleton)
 
 ## Structural desing patterns
 * [Adapter](https://github.com/ah-ryca/design-patterns/tree/main/structural/adapter)
