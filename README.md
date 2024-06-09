@@ -13,3 +13,4 @@
 ## Behavioral desing patterns
 * [Mediator](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/mediator)
 * [Observer](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/observer)
+* [State](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/state)
