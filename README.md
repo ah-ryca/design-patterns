@@ -14,3 +14,4 @@
 * [Mediator](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/mediator)
 * [Observer](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/observer)
 * [State](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/state)
+* [Chain of Responsibility](https://github.com/ah-ryca/design-patterns/tree/main/behavioral/chain-of-responsibility)
